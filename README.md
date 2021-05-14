@@ -1,5 +1,5 @@
 Name: Irshad Badarpura
-Description: A cash register to show, put, take and change cash written in Java
+- Description: A cash register to show, put, take and change cash written in Java
 
 # Files: 
 - src
@@ -19,7 +19,7 @@ Assumption: The cash register is empty at the begining.
 
 - check(String arr[]): This method is used from the take method to see if there is enough cash that can be taken from the register. This method returns a boolean
 
-- change(String chnage): Use this method to get change from the cash register. It returns the denominations that make up the change and removes the cash from the cash register. If change is not possible than it simply returns "Sorry"
+- change(String change): Use this method to get change from the cash register. It returns the denominations that make up the change and removes the cash from the cash register. If change is not possible than it simply returns "Sorry"
 
 - quit(): Use this method to quit the program
 
@@ -29,28 +29,28 @@ Please input the funtions in the following way:
 Use the name of the method followed by space and the number of denominations, again separated by space
 
 For example:
-put 1 2 3 4 5
-take 1 2 0 3 1
-show
-change 11
-quit
+- put 1 2 3 4 5
+- take 1 2 0 3 1
+- show
+- change 11
+- quit
 
 # Output
 
 A sample output:
-Enter the function with the function name and values as String separated by space
-Example: put 1 2 3 4 5
-put 1 2 3 4 5
-$68 1 2 3 4 5
-show
-$68 1 2 3 4 5
-put 1 2 3 0 5
-$128 2 4 6 4 10
-take 1 4 3 0 10
-$43 1 0 3 4 0
-change 11
-0 0 1 3 0
-change 14
-Sorry
-quit
-Bye
+- Enter the function with the function name and values as String separated by space
+- Example: put 1 2 3 4 5
+- put 1 2 3 4 5
+- $68 1 2 3 4 5
+- show
+- $68 1 2 3 4 5
+- put 1 2 3 0 5
+- $128 2 4 6 4 10
+- take 1 4 3 0 10
+- $43 1 0 3 4 0
+- change 11
+- 0 0 1 3 0
+- change 14
+- Sorry
+- quit
+- Bye
