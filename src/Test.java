@@ -34,7 +34,7 @@ public class Test {
         System.out.println("put 1 4 3 2 1");
         System.out.println(test3.put("1 4 3 2 1"));
         System.out.println("change 78");
-        System.out.println(test2.change("78"));
+        System.out.println(test3.change("78"));
         System.out.println("show");
         System.out.println(test3.show());
         System.out.println("End of Test 3");
