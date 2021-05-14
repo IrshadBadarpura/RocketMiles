@@ -6,9 +6,16 @@ Name: Irshad Badarpura
     - CashRegister.java
     - Test.java
 
-# How to run:
+# How to run using IDEA:
 - Run the CashRegister.java file with any Java compatible IDE like IntelliJ IDEA
 - Run the Test.java file to run sample test cases with any Java compatible IDE like IntelliJ IDEA
+
+# How to run using command line:
+- To run the CashRegister.java file 
+-- Set the directory to the src path. First compile the file using __javac CashRegister.java__  command and then run the file using __java Main__ command
+
+- To run the Test.java file
+-- Set the directory to the src path. First compile the file using __javac Test.java__ command and then run the file using __java Test__ command
 
 # Functions:
 Assumption: The cash register is empty at the begining.
