@@ -3,17 +3,19 @@ Name: Irshad Badarpura
 
 # Files: 
 - src
-- CashRegister.java
+    - CashRegister.java
+    - Test.java
 
 # How to run:
 - Run the CashRegister.java file with any Java compatible IDE like IntelliJ IDEA
+- Run the Test.java file to run sample test cases with any Java compatible IDE like IntelliJ IDEA
 
 # Functions:
 Assumption: The cash register is empty at the begining.
 
 - show(): Use this method to display the total cash and number of denominations of each type in the cash register. This method returns a String
 
-- put(String input): Use this method to enter the denominations in the cash register. Once, the insertion is succesful, it displays the updated register
+- put(String input): Use this method to enter the denominations in the cash register. Once, the insertion is successful, it displays the updated register
 
 - take(String remove): Use this method to remove denominations from the cash register. If there are enough denominations to remove, it displays the updated cash register, otherwise displays the message "Not enough denomination to take"
 
@@ -38,19 +40,21 @@ For example:
 # Output
 
 A sample output:
-- Enter the function with the function name and values as String separated by space
-- Example: put 1 2 3 4 5
-- put 1 2 3 4 5
-- $68 1 2 3 4 5
-- show
-- $68 1 2 3 4 5
-- put 1 2 3 0 5
-- $128 2 4 6 4 10
-- take 1 4 3 0 10
-- $43 1 0 3 4 0
-- change 11
-- 0 0 1 3 0
-- change 14
-- Sorry
-- quit
-- Bye
+```sh
+> Enter the function with the function name and values as String separated by space
+> Example: put 1 2 3 4 5
+> put 1 2 3 4 5
+> $68 1 2 3 4 5
+> show
+> $68 1 2 3 4 5
+> put 1 2 3 0 5
+> $128 2 4 6 4 10
+> take 1 4 3 0 10
+> $43 1 0 3 4 0
+> change 11
+> 0 0 1 3 0
+> change 14
+> Sorry
+> quit
+> Bye
+```
