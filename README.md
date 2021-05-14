@@ -3,7 +3,7 @@ Description: A cash register to show, put, take and change cash written in Java
 
 # Files: 
 - src
--- CashRegister.java
+- CashRegister.java
 
 # How to run:
 - Run the CashRegister.java file with any Java compatible IDE like IntelliJ IDEA
